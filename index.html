@@ -14,10 +14,11 @@
         }
 
         .container {
-            position: absolute;
-            left: 54rem;
-            top: 74%;
-            transform: translate(-50%, -50%);
+          position: fixed;
+         left: 12rem;
+         top: 25%;
+    
+        
         }
 
         .glass {
@@ -348,7 +349,7 @@
             }
         }
 
-       @media (max-width: 480px) {
+        @media (max-width: 480px) {
             .glass {
                 aspect-ratio: 3 / 5;
                 border-radius: 50% 50% 0 0;
@@ -360,12 +361,7 @@
                 width: 4vw;
                 height: 40vh;
             }
-            
-            .container {
-                left: 50%;
-                top: 50%;
-                transform: translate(-50%, -50%);
-            }
+
             .shine:before {
                 height: 5vh;
             }
